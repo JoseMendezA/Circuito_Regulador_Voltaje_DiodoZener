@@ -157,8 +157,9 @@ La regulación se mantiene en ambos casos, ya que $I_z > I_{zmin}$.
 
 ### Conclusión
 
-- Resistencia $R: 70Ω, 2W$
-- Diodo zener: 10V, 1W
+> [!Tip]
+> - Resistencia $R: 70Ω, 2W$
+> - Diodo zener: $10V, 1W$
 
 Con los valores calculados, se espera que el circuito mantenga un voltaje constante de 10 V en la carga a pesar de las variaciones en la corriente de carga $(0\ mA \ a \ 80 \ mA)$. Los resultados experimentales deben compararse con los valores teóricos para validar el diseño.
 
