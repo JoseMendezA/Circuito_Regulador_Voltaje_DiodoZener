@@ -70,7 +70,8 @@ Hemos diseñado el valor de la resistencia $\( R \)$ y su potencia para que el v
 
 En esta sección, diseñaremos el valor de la resistencia $\( R \)$ para que el voltaje en la carga $\( V_L \)$ sea regulado a 10 V, considerando una variación de corriente de carga desde 0 mA hasta 80 mA.
 
-![Circuito Regulador de Voltaje con Diodo Zener - Parte b](ruta/figura2.png)
+![image](https://github.com/user-attachments/assets/37cce9c3-a8c9-4955-b909-606247606759)
+
 
 ### 2. Parámetros del Circuito
 
@@ -139,15 +140,27 @@ La potencia disipada en el diodo Zener es un factor crítico. Debemos asegurarno
 1. **Montaje del Circuito**: Realizar el montaje del circuito con los valores calculados.
 2. **Mediciones**: Registra los siguientes valores experimentales:
    - $\( V_L \)$: Voltaje en la carga.
-   - $\( I_R \)$: Corriente a través de la resistencia \( R \).
+   - $\( I_R \)$: Corriente a través de la resistencia $\( R \)$.
    - $\( I_{L(max)} \)$ y $\( I_{L(min)} \)$: Corriente máxima y mínima a través de la carga.
    - $\( I_{Z(max)} \)$ y $\( I_{Z(min)} \)$: Corriente máxima y mínima a través del diodo Zener.
+
+### Paso 7: Verificación de la regulación
+
+- Con carga mínima $(I_L = 0mA)$:
+  $Iz = (16V - 10V) / 70Ω = 85.71mA$
+- Con carga máxima $(I_L = 80mA)$:
+  $I_z = 85.71mA - 80mA = 5.71mA$
+
+La regulación se mantiene en ambos casos, ya que $I_z > I_{zmin}$.
 
 3. **Fotografía del Montaje**: Incluir fotografías del montaje experimental para documentar el proceso.
 
 ### Conclusión
 
-Con los valores calculados, se espera que el circuito mantenga un voltaje constante de 10 V en la carga a pesar de las variaciones en la corriente de carga. Los resultados experimentales deben compararse con los valores teóricos para validar el diseño.
+- Resistencia $R: 70Ω, 2W$
+- Diodo zener: 10V, 1W
+
+Con los valores calculados, se espera que el circuito mantenga un voltaje constante de 10 V en la carga a pesar de las variaciones en la corriente de carga $(0\ mA \ a \ 80 \ mA)$. Los resultados experimentales deben compararse con los valores teóricos para validar el diseño.
 
 
 
